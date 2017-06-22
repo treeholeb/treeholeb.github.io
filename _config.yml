@@ -1,13 +1,13 @@
 # Setup
-title:        Project or Site name
-tagline:      A responsive theme for your project on GitHub Pages
+title:        TreeHole
+tagline:      让记录成为一种习惯
 baseurl:      ""
 paginate:     1
 
 # About/contact
 author:
-  name:       Author name
-  url:        http://yourhomepage.com 
+  name:       张英伟
+  url:        http://blog.zhangyingwei.com 
 
 # Gems
 gems:
