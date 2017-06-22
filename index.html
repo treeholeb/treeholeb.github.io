@@ -6,7 +6,7 @@ title: {{ site.name }}
 <div id="home">
   <ul class="posts">
   	{{ site.posts | sort: 'date'， 'last' }}
-    {% for post in site.posts %}
+    {% for post in site.posts.reverse %}
     	<h1>{{ post.title }}</h1>
       <!-- <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li> -->
       {{ post.content }}
