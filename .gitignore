@@ -3,3 +3,14 @@ _site
 .sass-cache
 Gemfile.lock
 .DS_Store
+.sync/*
+
+.me_configs.data
+
+.z_sync_configs.data
+
+sync_changes.log
+
+sync_hook.script
+
+**/.Archive
